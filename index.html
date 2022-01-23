@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Number Puzzle</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="puzzle-number-place">
+        <div class="puzzle-numbers">
+          <input
+            class="puzzle-number"
+            id="puzzle_number"
+            type="number"
+            placeholder="0"
+            onchange="check(0)"
+          />
+          <input
+            class="puzzle-number"
+            id="puzzle_number"
+            type="number"
+            placeholder="0"
+            onchange="check(1)"
+          />
+          <input
+            class="puzzle-number"
+            id="puzzle_number"
+            type="number"
+            placeholder="0"
+            onchange="check(2)"
+          />
+          <input
+            class="puzzle-number"
+            id="puzzle_number"
+            type="number"
+            placeholder="0"
+            onchange="check(3)"
+          />
+        </div>
+      </div>
+      <div class="tip-place">
+        <div class="row">
+          <div class="tip-numbers">
+            <h2 class="tip-number" id="tip_number"></h2>
+            <h2 class="tip-number" id="tip_number"></h2>
+            <h2 class="tip-number" id="tip_number"></h2>
+            <h2 class="tip-number" id="tip_number"></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="tip-numbers">
+            <h2 class="tip-number" id="tip_number"></h2>
+            <h2 class="tip-number" id="tip_number"></h2>
+            <h2 class="tip-number" id="tip_number"></h2>
+            <h2 class="tip-number" id="tip_number"></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="tip-numbers">
+            <h2 class="tip-number" id="tip_number"></h2>
+            <h2 class="tip-number" id="tip_number"></h2>
+            <h2 class="tip-number" id="tip_number"></h2>
+            <h2 class="tip-number" id="tip_number"></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="tip-numbers">
+            <h2 class="tip-number" id="tip_number"></h2>
+            <h2 class="tip-number" id="tip_number"></h2>
+            <h2 class="tip-number" id="tip_number"></h2>
+            <h2 class="tip-number" id="tip_number"></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
